@@ -3,3 +3,4 @@
     hooks:
     -   id: trailing-whitespace
     -   id: check-ast
+    -   id: fix-encoding-pragma
