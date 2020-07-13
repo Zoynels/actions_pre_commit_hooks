@@ -11,3 +11,7 @@
     rev: ''  # Use the revision sha / tag you want to point at
     hooks:
     -   id: isort
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: ''  # Use the sha / tag you want to point at
+    hooks:
+    -   id: autopep8
