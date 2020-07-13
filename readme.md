@@ -25,6 +25,7 @@ pre-commit sample-config >> .pre-commit-config.yaml
 5. Edit it as you want with vim or another text-editor
 GitHub repo with different already prepared hooks: https://github.com/pre-commit/pre-commit-hooks
 
+
 6. Install pre-commit script for this repo
 ```
 pre-commit install
@@ -35,6 +36,14 @@ It's usually a good idea to run the hooks against all of the files when adding n
 ```
 pre-commit run --all-files
 ```
+
+
+
+# Ready scripts
+1. Run `01_init_hooks.bat` in windows to install and init base hooks (it will also init new git repo in current folder)
+2. Run `02_commit_test.bat` in windows to test that hooks work
+
+
 
 # Links
 1. https://pre-commit.com/
