@@ -23,6 +23,7 @@ pre-commit sample-config >> .pre-commit-config.yaml
 ```
 
 5. Edit it as you want with vim or another text-editor
+
 GitHub repo with different already prepared hooks: https://github.com/pre-commit/pre-commit-hooks
 
 
@@ -32,6 +33,7 @@ pre-commit install
 ```
 
 7. Complete
+
 It's usually a good idea to run the hooks against all of the files when adding new hooks (usually pre-commit will only run on the changed files during git hooks)
 ```
 pre-commit run --all-files
