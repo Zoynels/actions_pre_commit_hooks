@@ -15,3 +15,7 @@
     rev: ''  # Use the sha / tag you want to point at
     hooks:
     -   id: autopep8
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+    - id: flake8
