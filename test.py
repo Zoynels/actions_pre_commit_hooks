@@ -2,7 +2,7 @@
 import os
 import sys
 
-sss = 1
+sss = "1"
 print(os.path.abspath(__file__))
 print(sys.path)
 
